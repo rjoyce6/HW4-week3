@@ -1,0 +1,403 @@
+/*========================================================
+          Sitewide Styles
+==========================================================*/
+/*multiple selector*/
+* {
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  background: #ededed;
+  font-family: 'Lato', sans-serif;
+  color: #696e70;
+}
+
+a {
+  text-decoration: none;
+  color: #696e70;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+/*========================================================
+          Top Section - Navigation
+========================================================*/
+nav {
+  margin: 0 auto;
+  padding: 25px 2% 10px 2%;
+
+}
+
+.wrapper{
+  height: 80px;
+  width: 98%;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+
+.logo {
+  float: left;
+}
+
+.logo i {
+  color: #ef9daa;
+  font-size: 26px;
+}
+
+.logo span {
+  font-family: 'Cookie', cursive;
+  font-size: 38px;
+  padding-left: 10px;
+}
+
+.sitenav {
+  padding-top: 20px;
+  float: right;
+}
+
+.sitenav li {
+  padding-left: 20px;
+}
+
+.sitenav a {
+  font-size: 18px;
+}
+
+/*========================================================
+          Header Section - Content
+========================================================*/
+header {
+  margin: 0 auto;
+  width: 96%;
+  text-align: center;
+}
+
+header p {
+  font-weight: bold;
+  line-height: 2;
+  font-size: 20px;
+}
+
+header span:first-child {
+  color: #ef9daa;
+}
+
+header span:nth-child(2){
+  font-size: 16px;
+}
+
+header div {
+  padding-top: 40px;
+}
+
+header img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+
+/*========================================================
+          Sections
+========================================================*/
+section {
+  margin: 0 auto;
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+section h1 {
+  color: #ef9daa;
+  font-family: 'Cookie', cursive;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+section p {
+  font-size: 18px;
+  line-height: 2;
+}
+
+#about {
+  float: left;
+  width: 46%;
+}
+
+#work {
+  float: right;
+  width: 47%;
+}
+
+.photos {
+  clear: both;
+  padding: 30px 20px 30px;
+}
+
+
+.photos li{
+  display: inline-block;
+  border-radius: 20px;
+  width: 230px;
+  padding: 10px 10px 12px;
+  padding-top: 212px;
+  line-height: 10px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.photos h2 {
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+.photos span {
+  color: #ef9daa;
+  font-family: 'Cookie', cursive;
+  font-weight: bold;
+  padding: 0;
+}
+
+.photos li:first-child {
+  background-image: url(../img/img1.jpg);
+}
+
+.photos li:nth-child(2) {
+  background-image: url(../img/img2.jpg);
+}
+
+.photos li:nth-child(3){
+  background-image: url(../img/img3.jpg);
+}
+
+.photos li:nth-child(4) {
+  background-image: url(../img/img4.jpg);
+}
+
+.photos li:nth-child(5) {
+  background-image: url(../img/img5.jpg);
+}
+
+.photos li:nth-child(6) {
+  background-image: url(../img/img6.jpg);
+}
+
+.photos li:nth-child(7) {
+  background-image: url(../img/img7.jpg);
+}
+
+.photos li:nth-child(8) {
+  background-image: url(../img/img8.jpg);
+}
+
+.photos li:nth-child(9) {
+  background-image: url(../img/img9.jpg);
+}
+
+.photos li:last-child {
+  background-image: url(../img/img10.jpg);
+}
+
+.photos li {
+  background-size: 278px;
+  background-repeat: no-repeat;
+}
+
+/*========================================================
+          Footer
+========================================================*/
+footer {
+  background: #2d2d2d;
+  margin: 0;
+  padding: 20px;
+  clear: both;
+  height: 300px;
+}
+
+#contact {
+  width: 50%;
+  float: left;
+}
+
+#contact h1 {
+  color: #a64b5c;
+  font-family: 'Cookie', cursive;
+  font-size: 25px;
+  padding: 20px 0 0;
+}
+
+#contact input, textarea {
+  background-color: #d8d8d8;
+  border: 1px solid #2d2d2d;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  margin: 5px 0;
+}
+
+#contact textarea {
+  height: 100px;
+  font-family: 'Lato', sans-serif;
+}
+
+#contact button {
+  background: transparent;
+  border: none;
+  color: #d8d8d8;
+}
+
+.social-media {
+  float: right;
+}
+
+.social-media button{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: none;
+  background: #d57584;
+  margin-left: 10px;
+}
+
+.social-media {
+  padding-top: 150px;
+}
+
+.social-media ul {
+  padding-left: 20px;
+}
+
+.social-media i{
+  color: #2d2d2d;
+  font-size: 20px;
+}
+
+
+/*================================================
+            Meta Viewport Tag
+================================================*/
+
+@media(max-width: 620px) {
+
+  /*Navigation section*/
+  .logo {
+    float: none;
+    text-align: center;
+  }
+
+  .sitenav {
+    padding-top: 0;
+  }
+
+  .sitenav a {
+    font-size: 12px;
+  }
+
+  /*Header section*/
+  header {
+    padding: 0;
+  }
+
+  header p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  header span:nth-child(2){
+    font-size: 12px;
+  }
+
+  header img {
+    width: 90%;
+    border-radius: 15px;
+  }
+
+  /*About me and Work section*/
+  section {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  #about, #work {
+    float: none;
+    width: 100%;
+
+  }
+
+  section h1 {
+    font-size: 25px;
+    padding: 0;
+  }
+
+  section p {
+    font-size: 14px;
+    line-height: 1.8;
+    text-align: center;
+  }
+
+  .photos {
+    padding: 0;
+  }
+
+  .photos li {
+    background-size: 100%;
+    background-color: white;
+    width: 30%;
+    padding-top: 75px;
+  }
+
+  .photos a {
+    line-height: 0;
+  }
+
+  .photos h2 {
+    font-size: 10px;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+
+  .photos span {
+    font-weight: normal;
+    font-size: 10px;
+  }
+
+  /*footer*/
+  footer {
+    height: 400px;
+  }
+
+  #contact {
+    width: 100%;
+  }
+
+  .social-media
+  {
+    clear: both;
+    padding: 30px 10px 10px;
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+
+  .social-media ul {
+      padding-bottom: 10px;
+  }
+
+  .social-media button {
+    width: 30px;
+    height: 30px;
+  }
+
+  .social-media i {
+    font-size: 16px;
+  }
+
+  #contact input, #contact textarea {
+    padding-left: 5px;
+  }
+
+
+}

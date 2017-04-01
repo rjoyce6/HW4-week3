@@ -1,0 +1,268 @@
+/*========================================================
+          Sitewide Styles
+==========================================================*/
+/*multiple selector*/
+* {
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  background: white;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/*========================================================
+          Top Section - Navigation
+========================================================*/
+nav {
+  background: #fe7c00;
+  height: 90px;
+}
+
+.logo {
+  padding-left: 50px;
+  display: inline-block;
+}
+
+.logo div {
+  display: inline-block;
+}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+  padding-top: 30px;
+}
+
+.logo h1 {
+  color: white;
+  font-size: 40px;
+  letter-spacing: -2px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.logo span {
+  font-weight: lighter;
+  color: rgba(255,255,255,0.6);
+}
+
+.logo sup {
+  font-size: 10px;
+}
+
+.sitenav {
+  display: inline-block;
+  float: right;
+}
+
+.sitenav ul{
+  list-style: none;
+  margin: 0 auto;
+  padding: 35px;
+}
+
+.sitenav li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.sitenav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*========================================================
+           Search Section
+========================================================*/
+header {
+  clear: both;
+  float: right;
+  margin: 5px 35px;
+  padding: 10px;
+  background: #f1f1f1;
+  height: 30px;
+}
+
+header input {
+  border: none;
+  background: transparent;
+  width: 150px;
+  padding: 8px;
+}
+
+header i {
+  color: #c1c1c1;
+}
+
+/*========================================================
+           Section
+========================================================*/
+section {
+  margin: 0 auto;
+  padding: 100px 20px;
+  clear: both;
+}
+
+section img {
+  width: 50%;
+  height: 50%;
+  float: left;
+}
+
+.aside {
+  float: right;
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.aside p {
+  font-size: 56px;
+  font-weight: lighter;
+  color: orange;
+  letter-spacing: -1px;
+  line-height: 80px;
+}
+
+.aside span:first-child {
+  font-weight: bold;
+}
+
+.aside sup {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.aside span:nth-child(n+2) {
+  color: #78cbc8;
+  font-weight: bold;
+}
+
+section button {
+  color: white;
+  border: none;
+  width: 320px;
+  height: 80px;
+  padding: 20px 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button-orange {
+  background-color: #fc7e00;
+}
+
+.button-aqua {
+  background-color: #78cbc8;
+  float: right;
+  margin-right: 20px;
+}
+
+/*========================================================
+        Footer Section
+========================================================*/
+footer {
+  background-color: #78cbc8;
+  margin: 0 auto;
+  height: 80px;
+  clear: both;
+  width: 100%;
+}
+
+
+/*================================================
+            Meta Viewport Tag
+================================================*/
+
+@media(max-width: 620px) {
+
+  /*navigation section*/
+  nav {
+    width: 100%;
+  }
+
+  /*logo - image and name*/
+  .logo {
+    padding-left: 2%;
+    margin-top: -10px;
+    width: 100%;
+  }
+
+  .logo img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .logo h1 {
+    font-size: 30px;
+  }
+
+  /*Site navigation*/
+  .sitenav {
+    margin: 0 5px;
+  }
+
+  .sitenav ul{
+    padding: 2px;
+  }
+
+  .sitenav li{
+    padding-left: 5px;
+    padding-top: 10px;
+  }
+
+  .sitenav a {
+    font-size: 12px;
+  }
+
+
+  /*Search Section */
+  header {
+    margin: 5px;
+    padding: 2px 3px;
+  }
+
+  header input {
+    width: 80px;
+    font-size: 12px;
+  }
+
+
+  /*Main section*/
+  section {
+    padding: 20px 10px;
+  }
+
+  section img {
+    width: 60%;
+  }
+
+  .aside {
+    float: none;
+    width: 80%;
+  }
+
+  .aside p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .aside sup {
+    font-size: 6px;
+    font-weight: normal;
+  }
+
+  /*Buttons */
+  section button {
+    width: 80px;
+    height: 30px;
+    padding: 2px;
+    font-size: 10px;
+    font-weight: normal;
+  }
+
+}
